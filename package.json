@@ -1,0 +1,41 @@
+{
+  "name": "baristOS",
+  "version": "0.0.1",
+  "description": "How we save the world",
+  "main": "src/boot.js",
+  "build": {
+    "appId": "com.baristos.baristOS",
+    "files": [
+      "src/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "publish": null
+  },
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp build"
+  },
+  "repository": "https://github.com/mccartnm/baristOS",
+  "keywords": [
+    "Electron",
+    "covfefe",
+    "coffee"
+  ],
+  "author": "baristos",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "fs-jetpack": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "rollup": "^0.45.2",
+    "gulp": "^3.9.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-less": "^3.3.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "rollup-plugin-istanbul": "^1.1.0"
+  }
+}
