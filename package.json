@@ -28,7 +28,7 @@
     "fs-jetpack": "^1.0.0"
   },
   "devDependencies": {
-    "electron": "~1.6.2",
+    "electron": "^1.8.2",
     "rollup": "^0.45.2",
     "gulp": "^3.9.1",
     "gulp-batch": "^1.0.5",
